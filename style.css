@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;400&display=swap');
+
+body{
+  background-color: white;
+  font-family: 'Outfit', sans-serif;
+  position: relative;
+}
+
+header{
+  background-color: #acbdd3;
+  height: 38em;
+}
+
+button:hover{
+  text-decoration: none !important;
+}
+
+a{
+  text-decoration: none;
+}
+
+.text-gold{
+  color: #b67929 !important;
+}
+
+.btn-outline-black{
+  border: 2px solid black;
+}
+
+.btn-outline-black-b{
+  border: 2px solid black;
+  border-bottom-width: 0px;
+}
+
+nav{
+  background-color: #acbdd3;
+}
+
+.pt-6{
+  padding-top: 8rem !important;
+}
+
+.nav-link:hover, .active{
+  color: white !important;
+  border-bottom: 2px solid black;
+}
+
+.nav-btn:hover{
+  border-bottom: 0;
+}
+
+.bg-border{
+  border: 4px solid black;
+}
+
+.bg-border-r{
+  border: 4px solid black;
+  border-right: 0;
+}
+
+.bg-border-b{
+  border: 4px solid black;
+  border-bottom: 0;
+}
+
+.bg-border-img{
+  border-bottom: 4px solid black;
+}
+
+.col-3-5{
+  width: 30.1222% !important;
+}
+
+.bg-runaway{
+  background-color: #cbc6c3;
+}
+
+.bg-alice{
+  background-color: #f7f8f9;
+}
+
+.bg-softblue{
+  background-color: #5d80b6;
+}
+
+.img-portfolio{
+  filter: contrast(90%);
+}
+
+.contact-link{
+  text-decoration: none !important;
+}
+
+#heading{
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .10em solid transparent; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  padding-right: 0% !important;
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+  typing 1.5s steps(10, end),
+  blink-caret .75s step-end;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0% }
+  to { width: 20% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: rgb(31, 31, 31); }
+  50% { border-color: transparent; }
+  
+}
